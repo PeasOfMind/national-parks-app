@@ -20,6 +20,11 @@ form > p {
     margin: 0 0 20px;
 }
 
+a {
+    color: white;
+    display: block;
+}
+
 input {
     font-family: inherit;
     font-size: 1em;
@@ -49,7 +54,17 @@ footer > p {
     color:#CBF4CD;
 }
 
+#js-results {
+    margin-bottom: 70px;
+}
+
 .result-item {
     background-color: #8CAD8E;
     border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.result-item > h2, h3 {
+    margin: 10px 0;
 }
